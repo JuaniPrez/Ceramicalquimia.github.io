@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;400;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to top, #FFFFFF, #ECE9E6);
+}
+/* ---------------------------- HEADER ------------------------ */
+header{
+    background-color:rgb(224, 226, 225, 0.95);
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 9999;
+}
+header a{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+}
+#link{
+    width: 11vh;
+    margin: 4px 0px 10px 13px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    *background-color: red;
+    font-size: 20px;
+    color: black;
+}
+/* ---------------------------------- SECCION 1 ------------------ */
+.seccion_1{
+    height: 100%;
+    width: 100%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.seccion_1 button{
+    width: 30%;
+    margin: 20px 10px 10px 10px;
+    padding: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+.seccion_1 img{
+    margin-top: 80px;
+    width: 300vh;
+    height: 80vh;
+    z-index: 0px;
+    display: block;
+}
+.titulo{
+    color: black;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titulo h1{
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    font-size: 80px;
+}
+.titulo p{
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+}
+/* -------------------------------- SECCION 2 -------------- */
+
+.seccion_2{
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+#row{
+    padding-bottom: 45px;
+}
+.seccion_2 p{
+    font-size: 20px;
+    padding: 20px;
+}
+.seccion_2 h2{
+    font-size: 40px;
+}
+/* -------------------------------- CARD ---------------------- */
+.card01{
+    background-color: #ECE9E6;
+}
+#card-group{
+    max-height: 100vh;
+    padding: 25px;
+}
+#card-group .card {
+    height: 100%;
+    overflow: auto;
+}
+#btn1{
+    font-size: 20px;
+    border: solid 0px white ;
+    margin-top: 20px;
+    background-color: #212121;
+}
+#btn2{
+    font-size: 20px;
+    border: solid 0px white ;
+    margin-top: 20px;
+    background-color: #212121;
+}
+.card01 h2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    padding-top: 70px;
+    white-space: wrap;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.card01 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.card01 p{
+    white-space: wrap;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 17px;
+}
+/* ---------------------------- FORMULARIO -------------------------- */
+#contacto h2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    padding-top: 74px;
+    white-space: wrap;
+    margin-bottom: 0;
+    text-align: center;
+}
+form{
+    width: 100%;
+    height: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.controls {
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+::placeholder{
+    font-size: 25px;
+    text-align: left;
+}
+#contacto .parrafo{
+    color: #212121;
+    font-size: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: block;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    padding-left: 35%;
+    justify-content:left;
+    text-align: left;
+}
+#contacto .parrafo p{
+    display: inline-block;
+    float: left;
+}
+/* -------------------------------- FOOTER -----------------------------*/
+
+footer{
+    margin-bottom: -20px;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(224, 226, 225, 0.95);
+}
+footer .copy{
+    color: #212121;
+    font-size: 20px;
+    text-align: center;
+}
