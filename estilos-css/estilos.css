@@ -18,6 +18,10 @@ header{
     width: 100%;
     z-index: 9999;
 }
+
+/* #navbar-nav {
+    padding-left: 96%;
+} */
 header a{
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 400;
@@ -27,7 +31,7 @@ header a{
     margin: 4px 0px 10px 13px;
     padding: 10px 0px 10px 0px;
     text-align: center;
-    *background-color: red;
+    background-color: red;
     font-size: 20px;
     color: black;
 }
