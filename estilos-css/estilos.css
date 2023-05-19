@@ -66,12 +66,12 @@ header a{
 }
 .titulo h1{
     color: #FFFFFF;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    text-shadow: -6px 1px 7px rgba(0, 0, 0, 0.8);
     font-size: 80px;
 }
 .titulo p{
     color: #FFFFFF;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    text-shadow: -6px 1px 7px rgba(0, 0, 0, 0.8);
     font-size: 40px;
 }
 /* -------------------------------- SECCION 2 -------------- */
@@ -101,7 +101,7 @@ header a{
     padding: 25px;
 }
 #card-group .card {
-    height: 100%;
+    height: 104%;
     overflow: auto;
 }
 #btn1{
@@ -179,6 +179,16 @@ form{
 #contacto .parrafo p{
     display: inline-block;
     float: left;
+}
+#boton_formulario{
+    width: 400px;
+    border-radius: solid 0px;
+    color: #FFFFFF;
+    background-color: #212121;
+    margin-top: 50px;
+    margin-left: 390px;
+    text-align: center;
+    height: 40px;
 }
 /* -------------------------------- FOOTER -----------------------------*/
 

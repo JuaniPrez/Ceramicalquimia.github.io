@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Juan Ignacio Perez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link CSS -->
     <link rel="stylesheet" href="./estilos-css/estilos.css">
+    <!-- links google-fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="./img/logo.jpg" type="image/png">
@@ -15,19 +18,15 @@
 </head>
 <body>
     <header>
+      <!-- NAVEGACIÓN -->
         <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-              <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="row">
-                  <div class="container-fluid">
-                      <a class="navbar-brand" href="#">CeramicAlquimia</a>
-                  </div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">CeramicAlquimia</a>
                 </div>
-                  <div class="row">
-                    <div class="collapse navbar-collapse" id="navbarText">
-                      <ul class="navbar-nav" id="navbar-nav">
-                          <li class="nav-item">
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#inicio" id="link">Inicio</a>
                           </li>
                           <li class="nav-item">
@@ -38,30 +37,27 @@
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#" id="link">Tienda</a>
-                          </li>
-                      </ul>
-                    </div>
-                  </div>
+                        </li>
+                    </ul>
                 </div>
-              </nav>
-            </div>
-          </div>
-        </div>
+            </nav>
     </header>
     <main class="seccion_1">
+      <!-- CONTENEDOR DE TITULO / LINK  -->
         <div class="container">
                 <img src="./img/foto_taller.jpeg"  class="img-fluid" alt="" id="inicio">
             <div class="titulo">
                 <div class="container">
                     <h1>TALLER DE CERÁMICA</h1>
                     <p>alfarería tradicional</p>
-                </div>
-                <div class="container">
+                </div>      
+                <div class="container"><!-- ir a la tienda (proximamente) -->
                     <button type="button" class="btn btn-light">Comprar</button>
                 </div>
             </div>
-        </div>
+        </div><!-- CIERRE DEL CONTENEDOR  -->
     </main>
+    <!-- CONTENDOR INFORMACIÓN DEL CÍTIO -->
     <main class="seccion_2" id="nosotros">
         <div class="container">
             <div class="row" id="row">
@@ -72,14 +68,15 @@
                 </p>
             </div>
             </div>
-        </div>
+        </div><!-- CIERRE CONTENEDOR INFORMACIÓN -->
     </main>
+    <!-- COMIENZO DE CARD-INFO-(ventas proximamente) -->
     <main class="card01">
         <div class="container">
             <h2>Nuestros trabajos</h2>
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col" id="card-group">
-                  <div class="card">
+                  <div class="card"><!-- Card_01 -->
                     <img src="./img/card/diseño_2.jpeg" width="0%" height="0%" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Budinera texturada con taza manija corazon</h5>
@@ -89,8 +86,8 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="col" id="card-group">
+                </div><!-- cierre card_01 -->
+                <div class="col" id="card-group"> <!-- Card_02 -->
                   <div class="card">
                     <img src="./img/card/diseño_3.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -102,8 +99,8 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="col" id="card-group">
+                </div> <!-- cierre card_02 -->
+                <div class="col" id="card-group"><!-- Card_03 -->
                   <div class="card">
                     <img src="./img/card/diseño_1.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -114,8 +111,8 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="col" id="card-group">
+                </div><!-- cierre card_03 -->
+                <div class="col" id="card-group"> <!-- Card_04 -->
                   <div class="card">
                     <img src="./img/card/diseño_4.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -126,12 +123,12 @@
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
+                </div> <!-- cierre card_04 -->
+          </div>
         </div>
-    </main>
+    </main> <!-- CIERRE CARD-INFO -->
     <main id="contacto">
-      <div class="container">
+      <div class="container"><!-- COMIENZO FORMULARIO DE CONTACTO -->
         <div class="row">
             <div class="col-md-12">
               <h2>Comunicate con nostros!</h2>
@@ -141,7 +138,7 @@
                     <input class="controls" type="email" name="Email" id="" placeholder="name@example.com">
                     <input class="controls" type="text" name="Asunto" id="" placeholder="Asunto">
                     <textarea class="controls" class="form-control" placeholder="Mensaje" id="floatingTextarea"></textarea>
-                    <button type="Enviar">Enviar</button>
+                    <button type="Enviar" id="boton_formulario">Enviar</button>
                   </form> 
                 </div>
               </div>
@@ -154,14 +151,15 @@
             </div>
         </div>
       </div>      
-    </main>
-    <footer>
+    </main> <!-- CIERRE FORMULARIO -->
+    <footer><!-- COMIENZO FOOTER -->
         <div>
             <div class="copy">
                 <p>©Creado por Juani-Perez</p>
             </div>
         </div>
     </footer>
+    <!-- CIERRE FOOTER -->
     <script src="./consola javascrip/js.js"></script>
 </body>
 </html>
